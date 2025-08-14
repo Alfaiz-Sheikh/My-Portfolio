@@ -1,3 +1,3 @@
 # My-Portfolio
 This is my responsive portfolio
-Author - Alfaiz Sheikh
+Author - Mr. Sheikh
