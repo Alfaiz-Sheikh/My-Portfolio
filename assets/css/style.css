@@ -14,6 +14,7 @@ header{
     width: 100vw;
     position: fixed;
     top: 0;
+    z-index: 2;
 }
 
 nav{
@@ -22,16 +23,17 @@ nav{
     background-color: #E1BB80;
     border-radius: 30px;
     display: flex;
-    align-items: center;
+    align-items: center;  
     justify-content: space-between;
-    padding: 0 1.2%;
+    padding: 0 2%;
     font-size: 1.1em;
     line-height: 50px;
+    height: 50px;
     box-shadow: 0 2px 5px;
 }
 
 .logo{
-    width: 10%;
+    width: 40%;
 }
 
 .menu{
@@ -58,6 +60,27 @@ nav ul li a{
 
 nav ul li a:hover{
     color: #685634;
+}
+
+@media screen and (max-width: 768px) {
+        #list{
+            display: none;
+            text-align: right;
+            background-color: #E1BB80;
+            width: 20%;
+            padding-right: 5%;
+            height: 100vh;
+            position: absolute;
+            right: 0;
+            margin-top: 10px;
+            z-index: 1;
+            border-radius: 30px;
+        }
+
+        .more{
+            display: block;
+            text-align: right;
+        }
 }
 
                                 /* Header Section Ended*/
