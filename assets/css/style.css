@@ -4,7 +4,7 @@
 }
 
 body{
-    background-color: #352208;
+    background-color: #000000;
     font-family: "Poppins", sans-serif;
 }
 
@@ -20,7 +20,7 @@ header{
 nav{
     width: 95%;
     margin: 10px auto;
-    background-color: #E1BB80;
+    background-color: #C8B8DB;
     border-radius: 30px;
     display: flex;
     align-items: center;  
@@ -43,7 +43,7 @@ nav{
 .more{
     font-size: 2rem;
     display: none;
-    color: #685634;
+    color: #000;
 }
 
 nav ul{
@@ -55,18 +55,18 @@ nav ul{
 
 nav ul li a{
     text-decoration: none;
-    color: #352208;
+    color: #000;
 }
 
 nav ul li a:hover{
-    color: #685634;
+    color: #70587C;
 }
 
 @media screen and (max-width: 768px) {
         #list{
             display: none;
             text-align: right;
-            background-color: #E1BB80;
+            background-color: #C8B8DB;
             width: 20%;
             padding-right: 5%;
             height: 100vh;
@@ -107,16 +107,16 @@ nav ul li a:hover{
 .sec1-txt{
     font-size: 2rem;
     font-weight: bolder;
-    color: #7B6B43;
+    color: #F9F4F5;
 }
 
 .name{
     font-style: italic;
-    color: #E1BB80;
+    color: #70587C;
 }
 
 #element{
-    color: #E1BB80;
+    color: #70587C;
 }
 
                                 /* Section 1 Ended */
