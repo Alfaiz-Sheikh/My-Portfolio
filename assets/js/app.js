@@ -1,3 +1,5 @@
+                                // Responsive Navigation Bar
+
 const more = document.querySelector(".more");
 const list = document.querySelector("#list");
 

@@ -84,3 +84,39 @@ nav ul li a:hover{
 }
 
                                 /* Header Section Ended*/
+
+                                /* Section 1 Started */
+
+#section1{
+    width: 100vw;
+}
+
+.sec1{
+    width: 80vw;
+    margin: 70px auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.sec1-txt{
+    width: 45%;
+    padding: 50px 0;
+}
+
+.sec1-txt{
+    font-size: 2rem;
+    font-weight: bolder;
+    color: #7B6B43;
+}
+
+.name{
+    font-style: italic;
+    color: #E1BB80;
+}
+
+#element{
+    color: #E1BB80;
+}
+
+                                /* Section 1 Ended */
