@@ -538,3 +538,36 @@ nav{
 
                             /* Fifth Section Ended */
 
+                                                        /* Sixth Section Started */
+
+#section6{
+    width: 100%;
+    padding: 100px 0;
+    background-color: #0F0715;
+}
+
+.skillsec{
+    width: 80vw;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.skilltag{
+    width: 14%;
+    background-color: #140C1C;
+    aspect-ratio: 1/1;
+    border-radius: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.skilltag i{
+    font-size: 5vmax;
+    filter: grayscale(100%);
+}
+
+                            /* Sixth Section Ended */
+
