@@ -476,6 +476,20 @@ nav{
     aspect-ratio: 1/1;
     background-color: #140C1C;
     border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.work img{
+    width: 90%;
+    height: 90%;
+    border-radius: 10px;
+    transition: all 1s;
+}
+
+.work img:hover{
+    transform: scale(1.03);
 }
 
 @media screen and (max-width: 991px){
@@ -536,9 +550,9 @@ nav{
     margin-top: 5vmax;
 }
 
-                            /* Fifth Section Ended */
+                                    /* Fifth Section Ended */
 
-                                                        /* Sixth Section Started */
+                                    /* Sixth Section Started */
 
 #section6{
     width: 100%;
