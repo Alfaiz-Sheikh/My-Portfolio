@@ -191,7 +191,7 @@ nav{
 }
 
 .img img{
-    width: 105%;
+    width: 100%;
     height: 100%;
     /* aspect-ratio: 1/1.05; */
     border-radius: 30px;
@@ -580,8 +580,46 @@ nav{
 
 .skilltag i{
     font-size: 5vmax;
-    filter: grayscale(100%);
+    filter: grayscale(100%) brightness(200%); 
+    transition: filter 0.3s ease, color 0.3s ease;
 }
 
+.skilltag:hover {
+    transform: scale(1.1);
+}
+
+.skilltag:hover i {
+    filter: none; 
+}
+
+.skilltag:hover .fa-html5 
+{ 
+    color: #E34F26; 
+}
+
+.skilltag:hover .fa-css3-alt 
+{ 
+    color: #1572B6; 
+}
+
+.skilltag:hover .fa-js 
+{ 
+    color: #F7DF1E; 
+}
+
+.skilltag:hover .fa-bootstrap
+{ 
+    color: #7952B3; 
+}
+
+.skilltag:hover .fa-react 
+{ 
+    color: #61DBFB;
+}
+
+.skilltag:hover .fa-github 
+{ 
+    color: #c0c0c0; 
+}
                             /* Sixth Section Ended */
 
