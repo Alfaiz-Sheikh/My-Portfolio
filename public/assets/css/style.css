@@ -313,7 +313,7 @@ nav{
 
                             /* Third Section Started */
 
-#section3{
+#services{
     width: 100%;
     padding: 120px 0;
     background-color: #050709;
@@ -389,7 +389,7 @@ nav{
 }
 
 @media screen and (max-width:991px){
-    #section3{
+    #services{
         padding: 75px 0;
     }
 
@@ -411,7 +411,7 @@ nav{
 }
 
 @media screen and (max-width: 767px){
-    #section3{
+    #services{
         padding: 50px 0;
     }
 
@@ -518,7 +518,7 @@ nav{
 
                             /* Fifth Section Started */
 
-#section5{
+#resume{
     width: 100%;
     display: flex;
     justify-content: space-around;
@@ -554,7 +554,7 @@ nav{
 
                                     /* Sixth Section Started */
 
-#section6{
+#skills{
     width: 100%;
     padding: 100px 0;
     background-color: #0F0715;
